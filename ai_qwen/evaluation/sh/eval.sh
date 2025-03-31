@@ -1,7 +1,5 @@
-set -ex
-
-PROMPT_TYPE=$1
-MODEL_NAME_OR_PATH=$2
+PROMPT_TYPE="qwen25-math-cot"
+MODEL_NAME_OR_PATH="Qwen/Qwen2.5-Math-72B-Instruct"
 OUTPUT_DIR=${MODEL_NAME_OR_PATH}/math_eval
 
 SPLIT="test"
